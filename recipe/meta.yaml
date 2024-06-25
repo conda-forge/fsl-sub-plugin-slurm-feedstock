@@ -1,5 +1,5 @@
 {% set name = "fsl-sub-plugin-slurm" %}
-{% set version = "1.6.2" %}
+{% set version = "1.6.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fsl_sub_plugin_slurm-{{ version }}.tar.gz
-  sha256: c0f64924b26baa8b003a52f3b79f4db86b29c021b86389546560ae9135252614
+  sha256: 2b8bfd0035712fd6897c3f5f16bf8f597210603c32983b31aeb483f2dae75efa
 
 build:
   noarch: python
